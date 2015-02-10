@@ -64,7 +64,7 @@ p {color: $dark-cream;}
 }
 
 .main-display{
-	background: url(mac_desk.png) no-repeat center;
+	background: url(images/mac_desk.png) no-repeat center;
 	background-size: cover;
 	height: 660px;
 }
@@ -83,6 +83,10 @@ p {color: $dark-cream;}
 .mid-section{
 	background-color:$eggshell;
 	height: 600px;
+
+	a {
+		text-decoration: none;
+	}
 
 	.mid-wrapper{
 		background-color: $transparency;
@@ -110,7 +114,7 @@ p {color: $dark-cream;}
 				width: 80%;
 				height: 60%;
 				margin-left: 10%;
-				background: url(adjective_logo.png) no-repeat;
+				background: url(images/adjective_logo.png) no-repeat;
 				background-size: contain;
 			}
 		}
@@ -135,7 +139,7 @@ p {color: $dark-cream;}
 				width: 80%;
 				height: 60%;
 				margin-left: 10%;
-				background: url(adjective_logo.png) no-repeat;
+				background: url(images/adjective_logo.png) no-repeat;
 				background-size: contain;
 			}
 		}
@@ -165,7 +169,7 @@ p {color: $dark-cream;}
 				width: 80%;
 				height: 50%;
 
-				background: url(smooth_transaction.png) no-repeat;
+				background: url(images/smooth_transaction.png) no-repeat;
 				background-size: contain;
 			}
 

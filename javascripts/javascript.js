@@ -5,7 +5,7 @@ $( document ).ready(function(){
 	
 	var tagFadeIn = function(){
 		$('.tagline').fadeIn(2000, function(){
-			console.log("Working?")
+			console.log("Fade done. Ready for callback.")
 		})
 	}
 
